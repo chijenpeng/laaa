@@ -1,9 +1,11 @@
 # LAAA
 
 Inspired by the Teletronix LA-2A.<br>
-Part of our legacy collection: recreations built from schematics where available, with extremely high CPU use in the heaviest models. They're legacy now, but we still think they sound pretty great.
+Part of the codycodie legacy release collection.
 
 LAAA is an AU and VST3 optical leveling amplifier built with JUCE. Its signal path is a schematic-derived, calibrated hybrid: documented resistor networks and load-line tube stages are modelled, while optical response, some tube stages and transformer behavior use empirical approximations. It is not a component-complete simulation of a measured unit.
+
+![LAAA editor](docs/editor.png)
 
 This release has its own plug-in identity (`com.c0dypeng.laaa`) so it can install alongside the original LA-2A. Existing DAW sessions continue to resolve their LA-2A instances to that original product. LAAA retains the parameter IDs, order, ranges, defaults and `La2a` saved-state root for compatible parameter data.
 
