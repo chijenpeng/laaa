@@ -14,7 +14,7 @@ permissions: {}
 jobs:
   build:
     if: github.repository == 'chijenpeng/laaa' && github.event.repository.private == false
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 45
     permissions:
       contents: write
