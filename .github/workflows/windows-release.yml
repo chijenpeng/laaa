@@ -94,7 +94,7 @@ jobs:
             "Release tag: $env:RELEASE_TAG"
             "Source commit: $sha"
             "Build: Windows x64 native MSVC Release"
-            "Tests: CTest passed on windows-latest"
+            "Tests: CTest passed on windows-2022"
             "Code signing: unsigned"
           ) | Set-Content -LiteralPath (Join-Path $stage "BUILD-INFO.txt") -Encoding utf8
 
